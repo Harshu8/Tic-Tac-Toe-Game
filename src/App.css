@@ -1,0 +1,31 @@
+body {
+  background-color: #06283D;
+}
+p{
+  padding-top: 9rem;
+  bottom:0px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  
+}
+.box:hover {
+  background-color: #B1BCE6;
+
+  
+}
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 35px;
+  color: #ffffff;
+}
